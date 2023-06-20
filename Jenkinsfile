@@ -1,6 +1,6 @@
 pipeline{
     agent any
-    
+
     environment{
         probar="hola desde la variable"
     }
@@ -9,7 +9,7 @@ pipeline{
 
         stage ("primer stage"){
             steps{
-                sh "python3 practica.py"
+                sh "echo hola"
             }
         }
 
