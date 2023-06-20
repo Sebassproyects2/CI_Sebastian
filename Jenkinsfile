@@ -1,5 +1,6 @@
 pipeline{
-
+    agent any
+    
     environment{
         probar="hola desde la variable"
     }
